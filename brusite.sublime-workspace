@@ -1,0 +1,789 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"REDI",
+				"REDIRECT_AFTER_REGISTRATION"
+			],
+			[
+				"us",
+				"user-profile"
+			],
+			[
+				"ge",
+				"getUserImageUrl  (function)"
+			],
+			[
+				"getA",
+				"getAge  (function)"
+			],
+			[
+				"sho",
+				"showPopup"
+			],
+			[
+				"Base_Service_Co",
+				"Base_Service_Common"
+			],
+			[
+				"isE",
+				"isEmailApproved"
+			],
+			[
+				"mar",
+				"markName"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"mark",
+				"markUser"
+			],
+			[
+				"strrep",
+				"str_replace"
+			],
+			[
+				"rema",
+				"remarketingService"
+			],
+			[
+				"call",
+				"call_user_method"
+			],
+			[
+				"array_k",
+				"array_key_exists"
+			],
+			[
+				"R",
+				"REDIRECT"
+			],
+			[
+				"_get",
+				"_getMarketingGroupFromActionName"
+			],
+			[
+				"под",
+				"подтверждения"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"REm",
+				"REMARKETING_GROUP_PHOTO"
+			],
+			[
+				"arr",
+				"in_array"
+			],
+			[
+				"const",
+				"constant"
+			],
+			[
+				"defi",
+				"defined"
+			],
+			[
+				"_re",
+				"_remarketingGroup  (variable)"
+			],
+			[
+				"tra",
+				"incrementTraffic  (function)"
+			],
+			[
+				"blc",
+				"block-form-login"
+			],
+			[
+				"WANNATALK",
+				"WANNATALK_REDIRECT"
+			],
+			[
+				"inc",
+				"incrementTraffic"
+			],
+			[
+				"adver",
+				"advertiser_id"
+			],
+			[
+				"off",
+				"offers  (variable)"
+			],
+			[
+				"getBu",
+				"getById  (function)"
+			],
+			[
+				"offe",
+				"offersService  (variable)"
+			],
+			[
+				"offer",
+				"offersService"
+			],
+			[
+				"array_m",
+				"array_merge"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"svn file",
+				"SVN: (File) Diff"
+			],
+			[
+				"svn file co",
+				"SVN: (File) Commit"
+			],
+			[
+				"svn file d",
+				"SVN: (File) Diff"
+			],
+			[
+				"svn file c",
+				"SVN: (File) Commit"
+			],
+			[
+				"svn file di",
+				"SVN: (File) Diff"
+			],
+			[
+				"svn file com",
+				"SVN: (File) Commit"
+			],
+			[
+				"svn file ci",
+				"SVN: (File) Commit"
+			],
+			[
+				"svn file a",
+				"SVN: (File) Add"
+			],
+			[
+				"svn file de",
+				"SVN: (File) Delete"
+			],
+			[
+				"svn file bl",
+				"SVN: (File) Blame"
+			],
+			[
+				"svn file b",
+				"SVN: (File) Blame"
+			],
+			[
+				"svn file ",
+				"SVN: (File) Delete"
+			],
+			[
+				"svn file r",
+				"SVN: (File) Revert"
+			],
+			[
+				"svn file bla",
+				"SVN: (File) Blame"
+			],
+			[
+				"svn fo",
+				"SVN: (Folder) Log"
+			],
+			[
+				"doc",
+				"Snippet: Start Docblock"
+			],
+			[
+				"svn file l",
+				"SVN: (File) Log"
+			],
+			[
+				"svn",
+				"SVN: Diff"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/ilyich/work/fotostrana/fotostrana/application/controllers/UserController.php",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Service/Remarketing.php",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Controller/Remarketing.php",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/remarketing/newStyle/confirm.phtml",
+		"/tmp/sublime-svn-1359537128/SVN",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Controller/Abstract.php",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/remarketing/newStyle/content.phtml",
+		"/tmp/sublime-svn-1359536924/SVN",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/skymonk/wannatalk_new.phtml",
+		"/tmp/sublime-svn-1359536864/SVN",
+		"/home/ilyich/work/fotostrana/static/app/landing/remarketing/base.js",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/remarketing/oldStyle/index.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/remarketing/newStyle/index.phtml",
+		"/tmp/sublime-svn-1359469011/SVN",
+		"/tmp/sublime-svn-1359468797/SVN",
+		"/tmp/sublime-svn-1359468466/SVN",
+		"/tmp/sublime-svn-1359468402/SVN",
+		"/tmp/sublime-svn-1359467509/SVN",
+		"/tmp/sublime-svn-1359467438/SVN",
+		"/tmp/sublime-svn-1359467414/SVN",
+		"/tmp/sublime-svn-1359467269/SVN",
+		"/tmp/sublime-svn-1359464343/SVN",
+		"/tmp/sublime-svn-1359464273/SVN",
+		"/tmp/sublime-svn-1359464205/SVN",
+		"/tmp/sublime-svn-1359463377/SVN",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/mailru_finish_button.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Controller/Questpet.php",
+		"/tmp/sublime-svn-1359462052/SVN",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/base/js_token.phtml",
+		"/tmp/sublime-svn-1359461728/SVN",
+		"/tmp/sublime-svn-1359461664/SVN",
+		"/tmp/sublime-svn-1359461652/SVN",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Service/Questpet.php",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Userinfo/Controller/Ajax.php",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Userinfo/Templates/confirm_email_new.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/Base/Service/Photo.php",
+		"/home/ilyich/work/fotostrana/fotostrana/Base/Model/User.php",
+		"/home/ilyich/work/fotostrana/fotostrana/Base/Service/User.php",
+		"/home/ilyich/work/fotostrana/fotostrana/Base/Service/UserSource.php",
+		"/home/ilyich/work/fotostrana/fotostrana/App/BaseLayout/Controller/Index.php",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Service/Renderer.php",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Profile/Controller/Signup.php",
+		"/tmp/sublime-svn-1359381233/SVN",
+		"/tmp/sublime-svn-1359380543/SVN",
+		"/home/ilyich/work/fotostrana/fotostrana/public_html/go.php",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Traffic/Service/Tds.php",
+		"/home/ilyich/work/fotostrana/fotostrana/Base/Service/Common.php",
+		"/home/ilyich/work/fotostrana/fotostrana/Base/Service/Log.php",
+		"/tmp/sublime-svn-1359377630/SVN",
+		"/tmp/sublime-svn-1359377598/SVN",
+		"/home/ilyich/work/fotostrana/fotostrana/Base/Service/Counter/MainCountFields.php",
+		"/tmp/sublime-svn-1359377126/SVN",
+		"/home/ilyich/work/fotostrana/fotostrana/application/models/Service/Base.php",
+		"/home/ilyich/work/fotostrana/static/app/landing/skymonk/wannatalk_new.css",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/skymonk/wannatalk_new_noscript.phtml",
+		"/tmp/sublime-svn-1359375473/SVN",
+		"/tmp/sublime-svn-1359374726/SVN",
+		"/tmp/sublime-svn-1359374483/SVN",
+		"/tmp/sublime-svn-1359369970/SVN",
+		"/tmp/sublime-svn-1359369872/SVN",
+		"/tmp/sublime-svn-1359368063/SVN",
+		"/tmp/sublime-svn-1359367033/SVN",
+		"/tmp/sublime-svn-1359367011/SVN",
+		"/tmp/sublime-svn-1359366964/SVN",
+		"/tmp/sublime-svn-1359366260/SVN",
+		"/tmp/sublime-svn-1359365583/SVN",
+		"/tmp/sublime-svn-1359365213/SVN",
+		"/tmp/sublime-svn-1359363107/SVN",
+		"/tmp/sublime-svn-1359360026/SVN",
+		"/tmp/sublime-svn-1359359414/SVN",
+		"/tmp/sublime-svn-1359359308/SVN",
+		"/tmp/sublime-svn-1359359286/SVN",
+		"/home/ilyich/work/fotostrana/static/js/new/base.js",
+		"/tmp/sublime-svn-1359358833/SVN",
+		"/tmp/sublime-svn-1359122838/SVN",
+		"/home/ilyich/work/fotostrana/fotostrana/Base/Service/UserSignup.php",
+		"/tmp/sublime-svn-1359120969/SVN",
+		"/home/ilyich/work/fotostrana/fotostrana/Base/Context.php",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Fs2Meeting/Templates/daiting/index.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/BaseLayout/Templates/top.phtml",
+		"/tmp/sublime-svn-1359112500/SVN",
+		"/home/ilyich/work/fotostrana/fotostrana/Base/Request.php",
+		"/home/ilyich/work/fotostrana/static/js/fs2.js",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Userphoto/Controller/Ajax.php",
+		"/home/ilyich/work/fotostrana/static/app/profile/signup/signup.js",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Profile/Templates/signup/signup.phtml",
+		"/home/ilyich/work/fotostrana/static/app/landing/wannatalk/new.css",
+		"/tmp/sublime-svn-1359097571/SVN",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/userinfo/index.phtml",
+		"/home/ilyich/work/fotostrana/static/app/landing/photolanding/js/register.js",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/remarketing/oldStyle/content.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/remarketing/oldStyle/old.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/remarketing/oldStyle/bottom.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/remarketing/newStyle/bottom.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/remarketing/newStyle/new.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/Base/View.php",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/remarketing/newStyle/top.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/remarketing/new.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/remarketing/old.phtml",
+		"/home/ilyich/work/fotostrana/static/app/landing/photolanding/js/register_popup.js",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Controller/Wannatalk.php",
+		"/home/ilyich/work/fotostrana/fotostrana/application/views/scripts/user/login.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/Base/Service/Captcha.php",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Signup/Service/Signup.php",
+		"/home/ilyich/work/fotostrana/fotostrana/application/controllers/PayController.php",
+		"/home/ilyich/work/fotostrana/fotostrana/Base/Controller/App.php",
+		"/home/ilyich/work/fotostrana/fotostrana/Base/Controller/Simple.php",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Controller/Bottlelanding.php",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/base/mailruAlternativeForm.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/base/regPopup.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/sociallanding/newmessage4.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/sociallanding/newmessage3.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/sociallanding/newmessage.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Signup/Controller/Abstract.php",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/js_token.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/kintort.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/flash_pet.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/fb_popup.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/pets.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/select_pet.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/select_pet_ajax.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/select_pet_ajax_buttons.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/select_pet_ajax_fl.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/select_pet_ajax_mail.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/select_pet_ajax_name.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/select_pet_ajax_new.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/select_pet_apocalypse.phtml",
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/select_pet_quest.phtml"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"_formData",
+			"prepareView",
+			"_prepareView",
+			"_templatePetConfigurator",
+			"SOURCE_QUESTPET_START",
+			"mainControllerHtml",
+			"redirectUrl",
+			"config",
+			"errorObject",
+			"login",
+			"loginOD",
+			"loginFB",
+			"login",
+			"wn.",
+			"<?=",
+			"_getClickmapRedirect",
+			"_setDefaultPetSource",
+			"_pFromBanner",
+			"_prepareBannerData",
+			"elephantId",
+			"Location",
+			"petSourcesList",
+			"confirm_noauth_regged",
+			"countRemarketingConfirmStats",
+			"destroyMark",
+			"stats",
+			"regis",
+			"register_noauth_regged",
+			"$signupResult['user']",
+			"traffic_remarketing_confirm_auth_c",
+			"$this->_mark",
+			"showPopup",
+			"submitLoginAction",
+			"wn",
+			"traffic_remarketing_confirm_auth_confirmed",
+			"showPopup",
+			"markUser",
+			"_config",
+			"getMarketingGroupFromCookie",
+			"$this->_statsCore",
+			"confirmAc",
+			"postRegisterUser",
+			"_postConfig",
+			"_config",
+			"_groups",
+			"Actio",
+			"Modelu",
+			"openPopup",
+			"iPopup",
+			"changemainphoto",
+			"changemainphoto		",
+			"tis",
+			"serviceStats",
+			"changemainphotoA",
+			"socialApi",
+			"this",
+			"submitLoginAction",
+			"progressBar",
+			"endStep",
+			"stepEmail",
+			"регис",
+			"стрир",
+			"showPopUp",
+			"errorObject",
+			"error_login",
+			"recaptcha_response_field",
+			"submitLoginAction",
+			"tpl",
+			"captcha",
+			"tpl",
+			"mailru",
+			"showHeaderCode",
+			"getBlack",
+			"getBlackLanding",
+			"getBlackLandingHeaderCod",
+			"getBlackLandingHeaderCode",
+			"getBlackLandingHeaderCode(",
+			"getConfig",
+			"getDefaultSettings",
+			"STart_",
+			"STart",
+			"getGoogleCodeVariant",
+			"autologin",
+			"setNeedShowCPANetworkCode",
+			"getCPANetworkRefIds",
+			"cpaCode",
+			"checkAge",
+			"_enableAntifraud",
+			"_antifraudCaptchaPopup",
+			"NORMAL_REG_TIME",
+			"updateProcessingUserModel",
+			"gmail",
+			"email",
+			"setRedirectLink",
+			"WANNATALK_REDIRECT",
+			"autologinUrl",
+			"redirectToNewLanding",
+			"project",
+			"setRedirectLink",
+			"processLoginedUser",
+			"setRedirectLink",
+			"after-register-redirect",
+			"console",
+			"ope",
+			"openBrowser",
+			"alert",
+			"openBrowser",
+			"registrationForm",
+			"openBrowser",
+			"after-register-redirect",
+			"openBrowser",
+			"redirectToLanding",
+			"loginedUserAction",
+			"loginToFS",
+			"o.php",
+			"_redirectUrl",
+			"redirectUrl",
+			"registrationForm",
+			"redirectUrl",
+			"redirectToLanding",
+			"parseSkymonkUser",
+			"Mainpage_Service_SplitTest",
+			"testParams",
+			"params",
+			"incrementTraffic",
+			"increment",
+			"increm",
+			"incre"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$this->_service->countRemarketingStats"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"stacoques",
+				"fotostrana/App/Start/Controller/Questpet.php"
+			],
+			[
+				"sttemplaquestmailru",
+				"fotostrana/App/Start/Templates/questpet/mailru_finish_button.phtml"
+			],
+			[
+				"startservicequest",
+				"fotostrana/App/Start/Service/Questpet.php"
+			],
+			[
+				"userinfotempla",
+				"fotostrana/App/Userinfo/Templates/confirm_email_new.phtml"
+			],
+			[
+				"userinfocontra",
+				"fotostrana/App/Userinfo/Controller/Ajax.php"
+			],
+			[
+				"baseserviceuser",
+				"fotostrana/Base/Service/User.php"
+			],
+			[
+				"baseserviceusers",
+				"fotostrana/Base/Service/UserSource.php"
+			],
+			[
+				"startservicere",
+				"fotostrana/App/Start/Service/Renderer.php"
+			],
+			[
+				"startcontrollerabstract",
+				"fotostrana/App/Start/Controller/Abstract.php"
+			],
+			[
+				"profilecontroll",
+				"fotostrana/App/Profile/Controller/Signup.php"
+			],
+			[
+				"baseserviceuse",
+				"fotostrana/Base/Service/UserSource.php"
+			],
+			[
+				"baseservicecou",
+				"fotostrana/Base/Service/Counter/MainCountFields.php"
+			],
+			[
+				"profilecontrols",
+				"fotostrana/App/Profile/Controller/Signup.php"
+			],
+			[
+				"baseserussi",
+				"fotostrana/Base/Service/UserSignup.php"
+			],
+			[
+				"profilecontrosign",
+				"fotostrana/App/Profile/Controller/Signup.php"
+			],
+			[
+				"sjfs2",
+				"static/js/fs2.js"
+			],
+			[
+				"jsnewbase",
+				"static/js/new/base.js"
+			],
+			[
+				"baseservicecountermain",
+				"fotostrana/Base/Service/Counter/MainCountFields.php"
+			],
+			[
+				"userphotoaja",
+				"fotostrana/App/Userphoto/Controller/Ajax.php"
+			],
+			[
+				"baseview",
+				"fotostrana/Base/View.php"
+			],
+			[
+				"baseservicecap",
+				"fotostrana/Base/Service/Captcha.php"
+			],
+			[
+				"baseserviceca",
+				"fotostrana/Base/Service/Captcha.php"
+			],
+			[
+				"signupservisi",
+				"fotostrana/App/Signup/Service/Signup.php"
+			],
+			[
+				"basecontrollerapp",
+				"fotostrana/Base/Controller/App.php"
+			],
+			[
+				"basecontrollersi",
+				"fotostrana/Base/Controller/Simple.php"
+			],
+			[
+				"basecontrolapp",
+				"fotostrana/Base/Controller/App.php"
+			],
+			[
+				"starcontrabs",
+				"fotostrana/App/Start/Controller/Abstract.php"
+			],
+			[
+				"stcoabstr",
+				"fotostrana/App/Start/Controller/Abstract.php"
+			],
+			[
+				"startservicerender",
+				"fotostrana/App/Start/Service/Renderer.php"
+			],
+			[
+				"appsignupcontr",
+				"fotostrana/App/Signup/Controller/Abstract.php"
+			],
+			[
+				"fs2searchconto",
+				"fotostrana/App/Fs2Search/Controller/Index.php"
+			],
+			[
+				"startservicebase",
+				"fotostrana/App/Start/Service/Base.php"
+			],
+			[
+				"basserloma",
+				"fotostrana/Base/Service/Login/MailRu.php"
+			],
+			[
+				"baseservloma",
+				"fotostrana/Base/Service/Login/MailRu.php"
+			],
+			[
+				"baseserviceloginfac",
+				"fotostrana/Base/Service/Login/Factory.php"
+			],
+			[
+				"baseservcostat",
+				"fotostrana/Base/Service/Counter/Statistic.php"
+			],
+			[
+				"basesercomai",
+				"fotostrana/Base/Service/Counter/Main.php"
+			],
+			[
+				"basemodelro",
+				"library/Base/Model/Rotator.php"
+			],
+			[
+				"basemodels",
+				"library/Base/Model/Site.php"
+			],
+			[
+				"baseserpix",
+				"library/Base/Service/Pixel.php"
+			],
+			[
+				"baseserof",
+				"library/Base/Service/Offer.php"
+			],
+			[
+				"baseserus",
+				"library/Base/Service/User.php"
+			],
+			[
+				"baseseof",
+				"library/Base/Service/Offer.php"
+			],
+			[
+				"bavifoof",
+				"library/Base/View/Form/Offer.php"
+			],
+			[
+				"manaco",
+				"application/controllers/ManagerController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/ilyich/work/fotostrana/fotostrana.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 311.0,
+	"status_bar_visible": true
+}
