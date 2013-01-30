@@ -2,8 +2,6 @@
 
 use Doctrine\Common\Annotations\AnnotationRegistry;
 use Doctrine\ODM\MongoDB\Mapping\Driver\AnnotationDriver;
-AnnotationDriver::registerAnnotationClasses();
-
 
 $loader = require __DIR__.'/../vendor/autoload.php';
 
@@ -13,7 +11,7 @@ if (!function_exists('intl_get_error_code')) {
 
     $loader->add('', __DIR__.'/../vendor/symfony/symfony/src/Symfony/Component/Locale/Resources/stubs');
 }
-
+AnnotationDriver::registerAnnotationClasses();
 AnnotationRegistry::registerLoader(array($loader, 'loadClass'));
 
 return $loader;
