@@ -1,6 +1,9 @@
 <?php
 
 use Doctrine\Common\Annotations\AnnotationRegistry;
+use Doctrine\ODM\MongoDB\Mapping\Driver\AnnotationDriver;
+AnnotationDriver::registerAnnotationClasses();
+
 
 $loader = require __DIR__.'/../vendor/autoload.php';
 

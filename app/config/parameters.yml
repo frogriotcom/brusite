@@ -1,5 +1,5 @@
 parameters:
-    database_driver:   pdo_mysql
+    database_driver:   mongo
     database_host:     localhost
     database_port:     ~
     database_name:     symfony
@@ -11,5 +11,5 @@ parameters:
     mailer_user:       ~
     mailer_password:   ~
 
-    locale:            en
+    locale:            ru
     secret:            ThisTokenIsNotSoSecretChangeIt
