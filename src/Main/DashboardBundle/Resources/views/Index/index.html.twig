@@ -1,1 +1,40 @@
-Hello {{ name }}!
+<div>Ипотека</div>
+<div>
+	<span>Общая сумма</span>
+	<input name="total_amount" value="{{ totalAmount }}"></input>
+</div>
+<div>
+	<span>Доля</span>
+	<input name="percent" value="{{ amountPercent }}"></input>
+</div>
+<div>
+	<span>Моя сумма начальная:</span>
+	<span>{{ myAmount }}</span>
+</div>
+<div>
+	<span>Оплачено:</span>
+	<span>{{ amountPayed }}</span>
+</div>
+<div>
+	<span>Осталось:</span>
+	<span>{{ amountToPay }}</span>
+</div>
+<div>
+	<span>Рассчитанные платежи в месяц:</span>
+	<span>{{ countedPayment }}</span>
+</div>
+<div>
+	<span>Рассчитанный остаток по месяцам:</span>
+	<span>{{ mortageTime }}</span>
+</div>
+<div>
+	<span>Средняя переплата в месяц:</span>
+	<span>{{ extraPayment }}</span>
+</div>
+<div>
+	<span>Реальнй остаток по месяцам:</span>
+	<span>{{ realTime }}</span>
+</div>
+
+
+
