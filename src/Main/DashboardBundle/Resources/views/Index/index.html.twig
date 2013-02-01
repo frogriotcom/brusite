@@ -1,3 +1,8 @@
+{% extends "MainDashboardBundle::layout.html.twig" %}
+
+{% block title "Symfony - Contact form" %}
+
+{% block content %}
 <div>Ипотека</div>
 <div>
 	<span>Общая сумма</span>
@@ -12,10 +17,10 @@
 	<span>{{ myAmount }}</span>
 </div>
 <div>
-	<span>Оплачено:</span>
-	<span>{{ amountPayed }}</span>
+	<span>Первоначальный взнос:</span>
+	<input name="percent" value="{{ amountPayed }}"></input>
 </div>
-<div>
+<!--div>
 	<span>Осталось:</span>
 	<span>{{ amountToPay }}</span>
 </div>
@@ -24,17 +29,44 @@
 	<span>{{ countedPayment }}</span>
 </div>
 <div>
-	<span>Рассчитанный остаток по месяцам:</span>
-	<span>{{ mortageTime }}</span>
-</div>
-<div>
 	<span>Средняя переплата в месяц:</span>
 	<span>{{ extraPayment }}</span>
+</div-->
+<div>
+	<span>Рассчитанный остаток по месяцам:</span>
+	<span>{{ mortageTime }}</span>
 </div>
 <div>
 	<span>Реальнй остаток по месяцам:</span>
 	<span>{{ realTime }}</span>
 </div>
+<div>
+	<span>Реальнй остаток по годам:</span>
+	<span>{{ realTime/12 }}</span>
+</div>
+<div>
+	{% for month in monthReport %}
+	<div class="month-report">
+		<div>
+			<span>Месяц: </span>
+			<span>{{ month['month'] }}</span>
+		</div>
+		<div>
+			<span>Осталось выплатить: </span>
+			<span>{{ month['amountToPay'] }}</span>
+		</div>
+		<div>
+			<span>Следующий рассчитанный платеж: </span>
+			<span>{{ month['nextPayment'] }}</span>
+		</div>
+		<div>
+			<span>Следующий дополнительный платеж: </span>
+			<span>{{ month['nextExtraPayment'] }}</span>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+{% endblock %}
 
 
 
