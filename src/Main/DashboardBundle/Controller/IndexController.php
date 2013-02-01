@@ -3,7 +3,9 @@
 namespace Main\DashboardBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Main\UserBundle\Document\User;
+use Main\UserBundle\Document\User;//its for datebase
+
+use Symfony\Component\HttpFoundation\Request; //what for?
 
 class IndexController extends Controller
 {
@@ -18,6 +20,7 @@ class IndexController extends Controller
 		$totalAmount   = 7500000;
 		
 		$mortageAmount = 3000000;
+		$mortageOverpayment = 0;
 		$mortageTime   = 240;
 		$mortagePercent= 0.1305;
 
@@ -27,9 +30,8 @@ class IndexController extends Controller
 		$amountPayed = 1500000;		
 		$amountToPay = $myAmount - $amountPayed;
 		$monthPercent = $mortagePercent / 12;
-		$countedPayment = $mortageAmount * (($monthPercent) / (1 - pow((1 + $monthPercent),( -$mortageTime))));
-		$countedPayment = $countedPayment/2;
-
+		$countedPayment = $amountPercent * $mortageAmount * (($monthPercent) / (1 - pow((1 + $monthPercent),( -$mortageTime))));
+		
 		$extraPayment = 0;
 		$totalAvailablePayment = 42000;
 		$extraPayment = $totalAvailablePayment - $countedPayment;
@@ -44,9 +46,10 @@ class IndexController extends Controller
 		);	
 		do {
 			$amountToPay = ($amountToPay + $amountToPay * $monthPercent) - ($countedPayment + $extraPayment);
+			$mortageOverpayment += $amountToPay * $monthPercent;
 			++$realTime;
 			if ($extraPayment) {
-				$countedPayment = $amountToPay * (($monthPercent) / (1 - pow((1 + $monthPercent),( -($mortageTime-$realTime) ) )));
+				$countedPayment = $amountPercent * $amountToPay * (($monthPercent) / (1 - pow((1 + $monthPercent),( -($mortageTime-$realTime) ) )));
 				$extraPayment = $totalAvailablePayment - $countedPayment;				
 			}		
 			$monthReport[] = array(
@@ -56,6 +59,10 @@ class IndexController extends Controller
 				'nextExtraPayment' => $extraPayment
 			);	
 		} while ($amountToPay > 0);
+
+		$task = array();
+		$form = $this->createFormBuilder($task)->getForm();
+
 		
 		return $this->render('MainDashboardBundle:Index:index.html.twig', array(
 			'totalAmount'    => $totalAmount,
@@ -68,7 +75,9 @@ class IndexController extends Controller
 			'mortageTime'    => $mortageTime,
 			'extraPayment'   => $extraPayment,
 			'realTime'       => $realTime,
-			'monthReport'    => $monthReport
+			'monthReport'    => $monthReport,
+			'mortageOverpayment' => $mortageOverpayment,
+			'form' => $form->createView(),
 		));
 	}
 }
