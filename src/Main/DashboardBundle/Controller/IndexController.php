@@ -5,7 +5,9 @@ namespace Main\DashboardBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Main\UserBundle\Document\User;//its for datebase
 
-use Symfony\Component\HttpFoundation\Request; //what for?
+use Symfony\Component\HttpFoundation\Request; //for requests
+
+use Main\DashboardBundle\Service\MortageCounter; //mortage service
 
 class IndexController extends Controller
 {
@@ -16,68 +18,15 @@ class IndexController extends Controller
 		$user->setEmail('ilya');
 		$dm->persist($user);
 		$dm->flush();*/
+		$service = new MortageCounter();
 
-		$totalAmount   = 7500000;
-		
-		$mortageAmount = 3000000;
-		$mortageOverpayment = 0;
-		$mortageTime   = 240;
-		$mortagePercent= 0.1305;
+		if (($request = $this->getRequest()) && $request->isMethod('POST')) {
+			//var_dump($this->getRequest()->request->all());die;
+			//save and recount;
+		}
 
-		$amountPercent = 50;
-		$amountPercent = $amountPercent / 100;
-		$myAmount = $totalAmount * ($amountPercent);
-		$amountPayed = 1500000;		
-		$amountToPay = $myAmount - $amountPayed;
-		$monthPercent = $mortagePercent / 12;
-		$countedPayment = $amountPercent * $mortageAmount * (($monthPercent) / (1 - pow((1 + $monthPercent),( -$mortageTime))));
-		
-		$extraPayment = 0;
-		$totalAvailablePayment = 42000;
-		$extraPayment = $totalAvailablePayment - $countedPayment;
-		$realTime = 0;
+		$service->countMortage();
 
-		$monthReport = array();
-		$monthReport[] = array(
-			'month'            => $realTime,
-			'amountToPay'      => $amountToPay,
-			'nextPayment'      => $countedPayment,
-			'nextExtraPayment' => $extraPayment
-		);	
-		do {
-			$amountToPay = ($amountToPay + $amountToPay * $monthPercent) - ($countedPayment + $extraPayment);
-			$mortageOverpayment += $amountToPay * $monthPercent;
-			++$realTime;
-			if ($extraPayment) {
-				$countedPayment = $amountPercent * $amountToPay * (($monthPercent) / (1 - pow((1 + $monthPercent),( -($mortageTime-$realTime) ) )));
-				$extraPayment = $totalAvailablePayment - $countedPayment;				
-			}		
-			$monthReport[] = array(
-				'month'            => $realTime,
-				'amountToPay'      => $amountToPay,
-				'nextPayment'      => $countedPayment,
-				'nextExtraPayment' => $extraPayment
-			);	
-		} while ($amountToPay > 0);
-
-		$task = array();
-		$form = $this->createFormBuilder($task)->getForm();
-
-		
-		return $this->render('MainDashboardBundle:Index:index.html.twig', array(
-			'totalAmount'    => $totalAmount,
-			'amountPercent'  => $amountPercent,
-			'mortageAmount'  => $mortageAmount,
-			'myAmount'       => $myAmount,
-			'amountPayed'    => $amountPayed,
-			'amountToPay'    => $amountToPay,
-			'countedPayment' => $countedPayment,
-			'mortageTime'    => $mortageTime,
-			'extraPayment'   => $extraPayment,
-			'realTime'       => $realTime,
-			'monthReport'    => $monthReport,
-			'mortageOverpayment' => $mortageOverpayment,
-			'form' => $form->createView(),
-		));
+		return $this->render('MainDashboardBundle:Index:index.html.twig', $service->getOutput());
 	}
 }

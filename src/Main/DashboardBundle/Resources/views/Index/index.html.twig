@@ -9,8 +9,7 @@
 <div id="mortage">
 	<!--h1>Ипотека</h1-->
 	<div class="initial-data block">
-		<form>
-			{{ form_widget(form) }}
+		<form method="POST" action= "/">
 			<div>
 				<span>Общая сумма</span>
 				<input name="total_amount" value="{{ totalAmount }}"></input>
@@ -25,12 +24,13 @@
 			</div>
 			<div>
 				<span>Первоначальный взнос:</span>
-				<input name="percent" value="{{ amountPayed }}"></input>
+				<input name="amount_payed" value="{{ amountPayed }}"></input>
 			</div>
 			<div>
 				<span>Итоговая переплата:</span>
 				<span>{{ mortageOverpayment }}</span>
 			</div>
+			<input type="submit" value="Отправить">
 		</form>
 	</div>
 	<!--div>

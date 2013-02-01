@@ -163,15 +163,15 @@
 			"file": "src/Main/DashboardBundle/Controller/IndexController.php",
 			"settings":
 			{
-				"buffer_size": 2572,
+				"buffer_size": 2714,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/config/security.yml",
+			"file": "vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Request.php",
 			"settings":
 			{
-				"buffer_size": 1021,
+				"buffer_size": 48342,
 				"line_ending": "Unix"
 			}
 		},
@@ -187,7 +187,7 @@
 			"file": "src/Main/DashboardBundle/Resources/views/Index/index.html.twig",
 			"settings":
 			{
-				"buffer_size": 1912,
+				"buffer_size": 1986,
 				"line_ending": "Unix"
 			}
 		},
@@ -309,6 +309,8 @@
 	"file_history":
 	[
 		"/home/ilyich/www/site/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php",
+		"/home/ilyich/www/site/app/config/security.yml",
+		"/home/ilyich/.config/sublime-text-2/Packages/User/SVN.errors.log",
 		"/home/ilyich/www/site/.gitignore",
 		"/home/ilyich/www/site/src/Main/UserBundle/MainUserBundle.php",
 		"/home/ilyich/www/site/app/autoload.php",
@@ -317,7 +319,6 @@
 		"/home/ilyich/www/site/app/config/routing_dev.yml",
 		"/home/ilyich/www/site/app/config/config.yml",
 		"/home/ilyich/www/site/web/app_dev.php",
-		"/home/ilyich/www/site/app/config/security.yml",
 		"/home/ilyich/www/site/vendor/doctrine/mongodb-odm/lib/Doctrine/ODM/MongoDB/Mapping/Driver/AnnotationDriver.php",
 		"/home/ilyich/www/site/vendor/doctrine/common/lib/Doctrine/Common/Annotations/AnnotationRegistry.php",
 		"/home/ilyich/www/site/composer.json",
@@ -434,8 +435,7 @@
 		"/home/ilyich/work/fotostrana/fotostrana/App/Signup/Service/Signup.php",
 		"/home/ilyich/work/fotostrana/fotostrana/application/controllers/PayController.php",
 		"/home/ilyich/work/fotostrana/fotostrana/Base/Controller/App.php",
-		"/home/ilyich/work/fotostrana/fotostrana/Base/Controller/Simple.php",
-		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Controller/Bottlelanding.php"
+		"/home/ilyich/work/fotostrana/fotostrana/Base/Controller/Simple.php"
 	],
 	"find":
 	{
@@ -453,6 +453,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"get(",
 			"_formData",
 			"prepareView",
 			"_prepareView",
@@ -579,8 +580,7 @@
 			"params",
 			"incrementTraffic",
 			"increment",
-			"increm",
-			"incre"
+			"increm"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -599,7 +599,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -723,15 +723,15 @@
 					"file": "src/Main/DashboardBundle/Controller/IndexController.php",
 					"settings":
 					{
-						"buffer_size": 2572,
+						"buffer_size": 2714,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2560,
-								2560
+								725,
+								725
 							]
 						],
 						"settings":
@@ -828,25 +828,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 450.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "app/config/security.yml",
+					"file": "vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Request.php",
 					"settings":
 					{
-						"buffer_size": 1021,
+						"buffer_size": 48342,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								751,
-								751
+								3307,
+								3307
 							]
 						],
 						"settings":
@@ -939,12 +939,12 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2219.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1070,15 +1070,15 @@
 					"file": "src/Main/DashboardBundle/Resources/views/Index/index.html.twig",
 					"settings":
 					{
-						"buffer_size": 1912,
+						"buffer_size": 1986,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								435,
-								435
+								697,
+								697
 							]
 						],
 						"settings":
