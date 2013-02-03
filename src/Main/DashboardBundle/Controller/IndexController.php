@@ -18,6 +18,7 @@ class IndexController extends Controller
 		$user->setEmail('ilya');
 		$dm->persist($user);
 		$dm->flush();*/
+		ini_set('memory_limit', '2048M');
 		$service = new MortageCounter();
 
 		if (($request = $this->getRequest()) && $request->isMethod('POST')) {

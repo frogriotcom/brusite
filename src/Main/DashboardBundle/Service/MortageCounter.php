@@ -10,8 +10,8 @@ class MortageCounter
     protected $_mortagePercent        = 0.1305;
 
     protected $_amountPayed           = 1500000;
-    protected $_amountPercent         = 50;
-    protected $_totalAvailablePayment = 42000;
+    protected $_amountPercent         = 100;
+    protected $_totalAvailablePayment = 62000;
     
     protected $_countedPayment        = 0;
     protected $_realTime              = 0;
@@ -87,7 +87,10 @@ class MortageCounter
 
     protected function _getExtraPayment()
     {
-        $this->_extraPayment = $this->_totalAvailablePayment - $this->_countedPayment;
+        if (($extraPayment = ($this->_totalAvailablePayment - $this->_countedPayment)) < 0) {
+            $extraPayment = $this->_countedPayment;
+        }
+        $this->_extraPayment = $extraPayment;
     }
 
     protected function _core()

@@ -139,6 +139,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/Main/DashboardBundle/Controller/IndexController.php",
+			"settings":
+			{
+				"buffer_size": 870,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Main/DashboardBundle/Service/MortageCounter.php",
+			"settings":
+			{
+				"buffer_size": 3655,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -248,6 +264,23 @@
 	},
 	"file_history":
 	[
+		"/home/ilyich/www/brusite/app/AppKernel.php",
+		"/home/ilyich/www/brusite/src/Main/UserBundle/Document/User.php",
+		"/home/ilyich/www/brusite/app/config/security.yml",
+		"/home/ilyich/www/brusite/app/config/parameters.yml",
+		"/home/ilyich/www/brusite/web/app_dev.php",
+		"/home/ilyich/www/brusite/app/config/config.yml",
+		"/home/ilyich/www/brusite/app/autoload.php",
+		"/home/ilyich/www/brusite/composer.json",
+		"/home/ilyich/www/brusite/app/config/routing.yml",
+		"/home/ilyich/www/brusite/src/Main/DashboardBundle/Resources/config/routing.yml",
+		"/home/ilyich/www/brusite/app/config/config_dev.yml",
+		"/home/ilyich/www/brusite/app/config/config_prod.yml",
+		"/home/ilyich/www/brusite/vendor/symfony/symfony/src/Symfony/Component/Security/Core/User/User.php",
+		"/home/ilyich/www/brusite/app/config/routing_dev.yml",
+		"/home/ilyich/www/brusite/app/console",
+		"/home/ilyich/www/brusite/.gitignore",
+		"/home/ilyich/www/brusite/web/app.php",
 		"/home/ilyich/work/fotostrana/fotostrana/application/controllers/UserController.php",
 		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Service/Remarketing.php",
 		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Controller/Remarketing.php",
@@ -358,24 +391,7 @@
 		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Controller/Bottlelanding.php",
 		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/base/mailruAlternativeForm.phtml",
 		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/base/regPopup.phtml",
-		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/sociallanding/newmessage4.phtml",
-		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/sociallanding/newmessage3.phtml",
-		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/sociallanding/newmessage.phtml",
-		"/home/ilyich/work/fotostrana/fotostrana/App/Signup/Controller/Abstract.php",
-		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/js_token.phtml",
-		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/kintort.phtml",
-		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/flash_pet.phtml",
-		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/fb_popup.phtml",
-		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/pets.phtml",
-		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/select_pet.phtml",
-		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/select_pet_ajax.phtml",
-		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/select_pet_ajax_buttons.phtml",
-		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/select_pet_ajax_fl.phtml",
-		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/select_pet_ajax_mail.phtml",
-		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/select_pet_ajax_name.phtml",
-		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/select_pet_ajax_new.phtml",
-		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/select_pet_apocalypse.phtml",
-		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/questpet/select_pet_quest.phtml"
+		"/home/ilyich/work/fotostrana/fotostrana/App/Start/Templates/sociallanding/newmessage4.phtml"
 	],
 	"find":
 	{
@@ -393,6 +409,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"_totalAvailablePayment",
+			"MongoDB",
+			"    \n",
+			"new",
+			"test",
+			"main_dashboard:\n    resource: \"@MainDashboardBundle/Resources/config/routing.yml\"\n    prefix:   /",
 			"_formData",
 			"prepareView",
 			"_prepareView",
@@ -514,13 +536,7 @@
 			"redirectUrl",
 			"redirectToLanding",
 			"parseSkymonkUser",
-			"Mainpage_Service_SplitTest",
-			"testParams",
-			"params",
-			"incrementTraffic",
-			"increment",
-			"increm",
-			"incre"
+			"Mainpage_Service_SplitTest"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -539,8 +555,64 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/Main/DashboardBundle/Controller/IndexController.php",
+					"settings":
+					{
+						"buffer_size": 870,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								544,
+								544
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/Main/DashboardBundle/Service/MortageCounter.php",
+					"settings":
+					{
+						"buffer_size": 3655,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2059,
+								2059
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 918.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -775,7 +847,7 @@
 		[
 			[
 				"",
-				"/home/ilyich/work/fotostrana/fotostrana.sublime-project"
+				"/home/ilyich/www/kintort/kintort.sublime-project"
 			]
 		],
 		"width": 380.0
